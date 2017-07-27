@@ -1,0 +1,8 @@
+<launch>
+ 
+  <node name="kinect2_bridge" pkg="kinect2_bridge" type="kinect2_bridge" respawn="true" output="screen">
+   <param name="depth_method" type="string" value="opencl"/>     
+   <param name="reg_method" type="string" value="opencl"/>     
+  </node> 
+
+</launch>

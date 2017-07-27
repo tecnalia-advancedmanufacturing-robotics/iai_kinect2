@@ -21,7 +21,8 @@
 
 #include <kinect2_registration/kinect2_console.h>
 
-#define K2_DEFAULT_NS          "kinect2"
+//#define K2_DEFAULT_NS          "kinect2"
+#define K2_DEFAULT_NS          "torso_kinect"
 
 #define K2_TF_LINK             "_link"
 #define K2_TF_RGB_OPT_FRAME    "_rgb_optical_frame"
